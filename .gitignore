@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# IDE and build output
+.idea/
+build/
+dist/
+*.spec
+*.exe
+
+# Local runtime state
+state.json
