@@ -2,6 +2,14 @@
 
 一个基于 Python 和 PySide6 的 Windows 桌面悬浮窗示例项目。它提供广告图片轮播、外部窗口接入、系统托盘和全局快捷键，适合作为 Qt 桌面浮窗交互的学习参考。
 
+## 下载与运行
+
+无需安装 Python。前往 [Releases 页面](https://github.com/dafenqizz/moyu-shenqi/releases) 下载最新版本的 `MoyuMask.exe`，双击即可在 Windows 上运行。
+
+也可以直接下载当前版本：[MoyuMask.exe](https://github.com/dafenqizz/moyu-shenqi/releases/download/v1.0.0/MoyuMask.exe)。
+
+如果 Windows SmartScreen 对未签名程序显示提示，请确认下载来源为本项目 Release 页面后，选择“更多信息”并点击“仍要运行”。
+
 ## 功能
 
 - 无边框置顶悬浮窗
