@@ -10,6 +10,16 @@
 
 如果 Windows SmartScreen 对未签名程序显示提示，请确认下载来源为本项目 Release 页面后，选择“更多信息”并点击“仍要运行”。
 
+## 风险与安全提示
+
+> 本工具仅用于个人本地娱乐与 PySide6 桌面交互学习，请勿在办公环境或违反所在组织规定的场景中使用。
+
+- 只从本项目的 GitHub Release 下载二进制文件；不信任第三方重新分发的 EXE。
+- 如需自行验证，建议本地使用 PyInstaller 编译源码。
+- `v1.0.0` 使用 Python 3.12.4、PySide6 6.11.2、PyInstaller 6.22.2 构建。
+- `MoyuMask.exe` 的 SHA-256：`2229df4b90e639bdd1707f0b41704758f273b5b2f9ceb33dadbb3bad80bb2aaa`。
+- 运行前可将下载的 EXE 上传至 [VirusTotal](https://www.virustotal.com/) 进行多引擎扫描。PyInstaller 单文件程序可能触发误报，请结合下载来源、哈希值和扫描结果判断。
+
 ## 功能
 
 - 无边框置顶悬浮窗

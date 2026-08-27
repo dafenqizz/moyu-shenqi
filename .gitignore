@@ -1,3 +1,11 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
 # Python
 __pycache__/
 *.py[cod]
@@ -6,10 +14,14 @@ venv/
 
 # IDE and build output
 .idea/
+.vscode/
 build/
 dist/
 *.spec
 *.exe
+*.rar
+发布包/
+.security-tools/
 
 # Local runtime state
 state.json
